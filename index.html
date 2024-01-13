@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <main>
+
+        <section>
+            <div class="img"></div>
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            <form autocomplete="on">
+
+                <div id="login1">
+                    <p>
+                        <p id="icon1" class="material-symbols-outlined">person_book
+                        </p>
+
+                        <label for="iemail"></label>
+                        <input class="caixas"  type="email" name="email" id="iemal" required maxlength="30" autocomplete="email" placeholder=" Seu E-mail">
+
+                    </p>
+
+                </div>
+                
+                <div id="login2">
+                    <p>
+                         <p id="icon2"  class="material-symbols-outlined">passkey</p>
+                            <label for="isenha"></label>
+                            <input class="caixas"  type="password" name="senha" id="isenha" required minlength="8" maxlength="20" autocomplete="current-password" placeholder=" Sua senha">
+                    </p>
+                </div>
+
+                <p>
+                    <input type="submit" value="Entrar">
+                </p>
+                <p>
+                    <button>Esqueci a senha</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>

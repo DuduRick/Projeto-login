@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #7B6F8F;
+}
+
+main{
+    position: relative;
+   height: 100vh;
+   width: 100vw;
+    
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 550px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
+    
+}
+
+.img{
+    background: url(../imagens/pexels-jan-van-der-wolf-19748973.jpg) center center no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+h1,p{
+    padding: 5px;
+}
+
+input{
+    width: 180px;
+    height: 35px;
+    border-radius: 10px;
+   
+}
+
+.caixas{
+    height: 44px;
+    width: 195px;
+    transform: translateY(-10px);
+}
+
+button{
+    width: 180px;
+    height: 35px;
+    border-radius: 10px;
+
+}
+
+#login1,#login2{
+    background-color: #7B6F8F;
+    margin: 5px 0px;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 240px;
+    transform: translate(5px);
+}
+
+#icon1,#icon2{
+    transform: translate(4px);
+}
