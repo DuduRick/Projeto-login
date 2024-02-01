@@ -52,8 +52,8 @@ input{
 }
 
 .caixas{
-    height: 44px;
-    width: 195px;
+    height: 45px;
+    width: 67vw;
     transform: translateY(-10px);
 }
 
@@ -70,8 +70,7 @@ button{
     border-radius: 10px;
     color: white;
     height: 50px;
-    width: 240px;
-    transform: translate(5px);
+    transform: translate(2px)
 }
 
 #icon1,#icon2{
